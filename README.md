@@ -30,6 +30,12 @@ kns-spec already said it: **two objects**. DOTK launched a third TLD (`.k`) so t
 
 KNS won distribution and lost uniqueness (indexer FCFS; SuperTypo is right about that). DOTK won uniqueness and lost the TLD, the source repo, and the grapheme/ENS rules wallets already implemented. The mix is: **`.kas` stays the name humans type; a DOTK-style gap registry (published `.sil`, official silverc, no silent `.k` fork) is how that name becomes unbuildable twice; cards carry records; wallets prove against a node; the inscription remains the cheap public history.**
 
+## Community risk (owner)
+
+Kaspa community who have minted KNS domains will likely not appreciate the effort. This desk understands the initiative. **Advice: work with KNS.**
+
+Full note: [RISK.md](RISK.md). Bind, don’t alias. Do not treat `.k` as a drop-in for people who already paid for `.kas`.
+
 ## Why not “just use DOTK”
 
 - `supertypo.kas` ≠ `supertypo.k`. Different owners on 15 Sep 2026. A wallet that resolves `.kas` to `.k` by stripping a letter is a theft bug.
@@ -61,6 +67,8 @@ See [MIX.md](MIX.md) and [PROTOCOL.md](PROTOCOL.md). Short:
 ## For @supertypo
 
 Collaborator invite is on this repo (push). You can comment, open issues, or PR corrections. The mix **does not** take `.k` or lineage `ee2128c0…`. It says: keep the gap-covering *idea*, keep `.kas` as the human string, **bind, don’t alias**. If that misreads the design, say so here.
+
+Owner note: people who minted KNS `.kas` will likely not appreciate a competing TLD. **Work with KNS.** [RISK.md](RISK.md).
 
 **This is not an audit** of DOTK or of KNS. Paper until `.sil` is public and someone else is paid to break it.
 
