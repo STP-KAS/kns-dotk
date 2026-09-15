@@ -1,10 +1,16 @@
 # Best of KNS + DOTK
 
+**Not an audit. Not a security review. Not a certification. Not Kaspa core. Not a deployed registrar.**
+
+This is a desk sketch: what to keep from official KNS and from SuperTypo’s DOTK. It is **not** SuperTypo’s product, **not** official KNS, and **not** a claim that either protocol is safe to put large KAS into.
+
+**[@supertypo](https://github.com/supertypo)** — this desk added you as a collaborator so you can check. Please correct anything wrong. Independent DOTK pass (also inviting you): [STP-KAS/dotk-review](https://github.com/STP-KAS/dotk-review).
+
+---
+
 **Inscription identity that people already own, plus covenant uniqueness that nodes actually enforce.**
 
-This is the mix. Independent review of DOTK is [STP-KAS/dotk-review](https://github.com/STP-KAS/dotk-review). The KNS implementer kit is [STP-KAS/kns-spec](https://github.com/STP-KAS/kns-spec).
-
-Not official KNS. Not SuperTypo. Not Kaspa core. Not a deployed registrar.
+KNS implementer kit: [STP-KAS/kns-spec](https://github.com/STP-KAS/kns-spec).
 
 ## The rule (do not weld)
 
@@ -52,6 +58,12 @@ See [MIX.md](MIX.md) and [PROTOCOL.md](PROTOCOL.md). Short:
 
 [REAL.md](REAL.md). Gap uniqueness is **real on `.k` today**. The mix is **paper** until someone publishes `.sil` and a migration that does not steal `alice.kas`.
 
+## For @supertypo
+
+Collaborator invite is on this repo (push). You can comment, open issues, or PR corrections. The mix **does not** take `.k` or lineage `ee2128c0…`. It says: keep the gap-covering *idea*, keep `.kas` as the human string, **bind, don’t alias**. If that misreads the design, say so here.
+
+**This is not an audit** of DOTK or of KNS. Paper until `.sil` is public and someone else is paid to break it.
+
 ## License
 
-MIT. No warranty. Not financial advice.
+MIT. No warranty. **Not an audit.** Not financial advice. Not Kaspa core. Not official KNS. Not SuperTypo.

@@ -1,5 +1,7 @@
 # Real vs paper
 
+**Not an audit.** [@supertypo](https://github.com/supertypo) is invited as collaborator to check this mix.
+
 Same honesty bar as kns-spec [REAL.md](https://github.com/STP-KAS/kns-spec/blob/main/REAL.md).
 
 | Real (15 Sep 2026) | Paper (this repo) |
