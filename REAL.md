@@ -12,6 +12,7 @@ Same honesty bar as kns-spec [REAL.md](https://github.com/STP-KAS/kns-spec/blob/
 | kns-spec `KasName.sil` as a **lock** | That lock making the label unique |
 | simply-kaspa-indexer as L1 feed | A third-party KNS replica that matches official owners |
 | Two owners for `supertypo.kas` vs `supertypo.k` | A safe auto-alias |
+| KNS minters who already paid | A welcome second TLD |
 
 ## Do not sell as shipped
 
@@ -19,6 +20,7 @@ Same honesty bar as kns-spec [REAL.md](https://github.com/STP-KAS/kns-spec/blob/
 - “DOTK is official `.kas`”
 - “This mix is a registrar”
 - “Open source DOTK” (until the 404 closes)
+- “The community asked for a second TLD” — they did not. See [RISK.md](RISK.md)
 
 ## Do this next (ops, not crypto)
 
@@ -26,3 +28,4 @@ Same honesty bar as kns-spec [REAL.md](https://github.com/STP-KAS/kns-spec/blob/
 2. KNS: one-shot resolve + `ipfs`/`kas` profile keys (kns-spec Monday list).
 3. Wallets: warning + show address. Still 90% of the product.
 4. If anyone geneses a `.kas` gap registry: publish `.sil`, silverc tag, template hashes, and a bind spec **before** taking fees.
+5. **Work with KNS.** People who minted `.kas` will likely not appreciate a competing TLD. See [RISK.md](RISK.md).
