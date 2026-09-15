@@ -61,3 +61,7 @@ Independent scoring. “Best” means best *for a Kaspa name people can type and
 If KNS team ships gap covering under `.kas`, they keep distribution. If SuperTypo publishes `dotk` and offers a **bind** (owner of `alice.kas` may mint `alice` in a `.kas` v2 registry), users choose. A third party shipping a silent alias is a phishing product.
 
 This desk does not pick a winner’s cash register. Template `devfund_spk` must be public, replaceable only by a new lineage, and argued in the open.
+
+## Community risk (owner)
+
+Kaspa community who have minted KNS domains will likely not appreciate a parallel `.k` or a mix that looks like a replacement. This desk understands the uniqueness initiative. **Advice: work with KNS.** See [RISK.md](RISK.md).
