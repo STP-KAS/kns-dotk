@@ -16,6 +16,8 @@ This is a desk sketch: what to keep from official KNS and from SuperTypo’s DOT
 
 KNS implementer kit: [STP-KAS/kns-spec](https://github.com/STP-KAS/kns-spec).
 
+19 Sep 2026 independent pass of Kaspire-on-KNS-TN10 (same two-objects rule; Connect button ≠ wallet table; indexer FCFS unchanged): [STP-KAS/kns-kaspire-tn10-review](https://github.com/STP-KAS/kns-kaspire-tn10-review).
+
 ## The rule (do not weld)
 
 kns-spec already said it: **two objects**. DOTK launched a third TLD (`.k`) so the objects cannot collide on chain. The mix keeps them distinct and **binds** them on purpose.
