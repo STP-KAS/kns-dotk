@@ -1,6 +1,6 @@
 # What to take from each
 
-**Not an audit.** [@supertypo](https://github.com/supertypo) is invited as collaborator to check this scoring.
+**Not an audit.** Scored for the KNS team.
 
 Independent scoring. “Best” means best *for a Kaspa name people can type and prove*. Sources: [STP-KAS/kns-spec](https://github.com/STP-KAS/kns-spec), [STP-KAS/dotk-review](https://github.com/STP-KAS/dotk-review).
 

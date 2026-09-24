@@ -6,9 +6,9 @@
 
 **Not an audit. Not a security review. Not a certification. Not Kaspa core. Not a deployed registrar.**
 
-This is a desk sketch: what to keep from official KNS and from SuperTypo’s DOTK. It is **not** SuperTypo’s product, **not** official KNS, and **not** a claim that either protocol is safe to put large KAS into.
+This is a desk sketch for the KNS team: what to keep from official KNS and what to learn from DOTK. It is **not** SuperTypo’s product, **not** official KNS, and **not** a claim that either protocol is safe to put large KAS into.
 
-**[@supertypo](https://github.com/supertypo)** — this desk added you as a collaborator so you can check. Please correct anything wrong. Independent DOTK pass (also inviting you): [STP-KAS/dotk-review](https://github.com/STP-KAS/dotk-review).
+Independent DOTK pass, same audience: [STP-KAS/dotk-review](https://github.com/STP-KAS/dotk-review). Inscription lab read against this sheet: [FOR-KNS.md](https://github.com/STP-KAS/kns-tn10-testing/blob/main/FOR-KNS.md).
 
 ---
 
@@ -72,13 +72,17 @@ See [MIX.md](MIX.md) and [PROTOCOL.md](PROTOCOL.md). Short:
 
 24 Sep 2026: the two SDKs are public at 2.0.0, subnames are card records, and `<name>.kaspa.name` is a directory gateway. The covenant repo still 404s. [NEWS.md](NEWS.md). The inscription lab read against this sheet: [FOR-KNS.md](https://github.com/STP-KAS/kns-tn10-testing/blob/main/FOR-KNS.md).
 
-## For @supertypo
+## For the KNS team
 
-Collaborator invite is on this repo (push). You can comment, open issues, or PR corrections. The mix **does not** take `.k` or lineage `ee2128c0…`. It says: keep the gap-covering *idea*, keep `.kas` as the human string, **bind, don’t alias**. If that misreads the design, say so here.
+What to learn. The long form is [FOR-KNS.md](https://github.com/STP-KAS/kns-tn10-testing/blob/main/FOR-KNS.md).
 
-Owner note: people who minted KNS `.kas` will likely not appreciate a competing TLD. **Work with KNS.** [RISK.md](RISK.md).
+**From DOTK.** Uniqueness can be a gap over a name key, so a second register is a double-spend and the leftover gaps prove a name is free. One lineage is filterable. Commit the claim before the name is revealed, and take both signatures before that commit. Ship the manifest inside the client. Prove with a node that has a UTXO index. One send box, and stop when resolution fails. Show the sompi total before the wallet signs. One card for records, cleared on transfer, with the dropped list on screen. A subname is a one-way pointer on that card. The chain proves the parent, not the payee.
 
-**This is not an audit** of DOTK or of KNS. Paper until `.sil` is public and someone else is paid to break it.
+**From covenants.** A name lock that does not cover the label is not a registrar. `KasName.sil` is that lock. KNS’s own TN10 covenant registration is a different object from the inscription lab. Smoke one register, read `covenant_id` on a node with `--utxoindex`, and only then scale. Publish the `.sil`, SilverScript v1.0.0, the template hashes, and a public fee address before a mainnet fee. Finish a reveal that already committed. Do not post a second one.
+
+**From the rest.** Keep `.kas`, ENS-normalize, and grapheme fees. Check availability before the spend. Show the `kaspa:` address. The 8,758 TN10 inscriptions are the installed base and the claim snapshot, not a covenant result. Bind a deed only when the inscription owner signs. If the two owners differ, show both and do not send. The GitBook wallet table is the wallet list. simply-kaspa-indexer is the L1 feed. It becomes useful for a covenant when the row carries `covenant_id`. It is not the name API.
+
+Do not take `.k`, the unsalted name hash, the ASCII-only charset, the closed script, the baked devfund, or `https://<name>.kaspa.name` as a chain feature. [NEWS.md](NEWS.md). [RISK.md](RISK.md).
 
 ## License
 

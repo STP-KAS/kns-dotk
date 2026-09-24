@@ -1,6 +1,6 @@
 # Mix protocol (paper)
 
-**Not an audit. Not deployed.** [@supertypo](https://github.com/supertypo) is invited as collaborator to check this sketch.
+**Not an audit. Not deployed.** Sketch for the KNS team.
 
 Live uniqueness today: KNS indexer for `.kas`, DOTK lineage `ee2128c0…` for `.k`. See [REAL.md](REAL.md).
 
