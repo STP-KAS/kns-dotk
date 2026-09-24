@@ -46,7 +46,7 @@ Full note: [RISK.md](RISK.md). Bind, don’t alias. Do not treat `.k` as a drop-
 
 - `supertypo.kas` ≠ `supertypo.k`. Different owners on 15 Sep 2026. A wallet that resolves `.kas` to `.k` by stripping a letter is a theft bug.
 - KNS has KasWare `buildScript({ type: "KNS" })`, fees people already paid, profiles, `.kas.limo`.
-- DOTK source is **not on GitHub**. Mixing in an unpublished template is how you inherit a baked devfund forever.
+- The two SDK repos are public (21 Sep 2026, version 2.0.0). `github.com/supertypo/dotk` still 404s and the `.sil` is still unpublished. Mixing in an unpublished template is how you inherit a baked devfund forever. See [NEWS.md](NEWS.md).
 - Compiler pin: kns-spec silverc **v1.0.0**; DOTK ABI **0.1.0**.
 
 ## Why not “just keep KNS”
@@ -69,6 +69,8 @@ See [MIX.md](MIX.md) and [PROTOCOL.md](PROTOCOL.md). Short:
 ## Real vs paper
 
 [REAL.md](REAL.md). Gap uniqueness is **real on `.k` today**. The mix is **paper** until someone publishes `.sil` and a migration that does not steal `alice.kas`.
+
+24 Sep 2026: the two SDKs are public at 2.0.0, subnames are card records, and `<name>.kaspa.name` is a directory gateway. The covenant repo still 404s. [NEWS.md](NEWS.md). The inscription lab read against this sheet: [FOR-KNS.md](https://github.com/STP-KAS/kns-tn10-testing/blob/main/FOR-KNS.md).
 
 ## For @supertypo
 

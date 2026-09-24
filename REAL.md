@@ -8,7 +8,7 @@ Same honesty bar as kns-spec [REAL.md](https://github.com/STP-KAS/kns-spec/blob/
 | --- | --- |
 | KNS `.kas` inscriptions + `api.knsdomains.org` | Nodes rejecting a second `alice.kas` |
 | DOTK `.k` gap registry lineage `ee2128c0…`, 257 active names | That lineage covering `.kas` |
-| `@dotk/sdk` / `@dotk/sdk-tx` on npm | `github.com/supertypo/dotk` |
+| `@dotk/sdk` / `@dotk/sdk-tx` **2.0.0** on GitHub (21 Sep 2026). No `.sil`. ABI `compiler_version` 0.1.0 | `github.com/supertypo/dotk` (still 404 on 24 Sep). See [NEWS.md](NEWS.md) |
 | kns-spec `KasName.sil` as a **lock** | That lock making the label unique |
 | simply-kaspa-indexer as L1 feed | A third-party KNS replica that matches official owners |
 | Two owners for `supertypo.kas` vs `supertypo.k` | A safe auto-alias |

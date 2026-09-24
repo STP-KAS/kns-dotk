@@ -19,6 +19,8 @@ Independent scoring. “Best” means best *for a Kaspa name people can type and
 | Transfer is one lineage input | No neighbour lookup to move a name (docs). That’s how a marketplace works without the directory |
 | Completeness | Gaps + deeds partition the keyspace. You can prove a name is *free*, not only that one deed exists |
 | No rent | Both got this right. Keep |
+| Subnames as `sub:` card records (SDK 2.0.0, 21 Sep 2026) | One-way owner claim. The chain proves the parent deed, not the payee. See [NEWS.md](NEWS.md) |
+| `recipientFor` and `quote` before the signature | The send box refuses a guess. The price is sompi, on screen before the popup |
 
 ## Take from KNS / kns-spec
 
@@ -51,7 +53,7 @@ Independent scoring. “Best” means best *for a Kaspa name people can type and
 | Auto `.kas` ↔ `.k` | Different owners today (`supertypo`, `kaspa`) |
 | Closed indexer as uniqueness | KNS today |
 | Closed `.sil` as uniqueness | DOTK today |
-| Hierarchical subnames faked as multi-dot | Both are flat |
+| Hierarchical subnames as their own gap names | DOTK 2.0 subnames are `sub:` records on the parent card. The chain proves the parent, not the payee. A dotted label is not a second registry key. See [NEWS.md](NEWS.md) |
 | Rent | Already correct |
 | Kaspa EVM “so dApps can run” | kns-spec REAL.md “what not to build” |
 | Mixing Schnorr spend key with some other curve and calling it one identity | kns-spec |
